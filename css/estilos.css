@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    display: flex;
+    justify-content: flex-end;
+}
+#header .header-nav {
+    font-size: 13px;
+    line-height: 24px;
+}
+.header-nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.header-nav ul li{
+    padding: 0 7px;
+}
+.header-nav img {
+    width: 30px;
+    vertical-align: middle;
+}
+.header-nav a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+.header-nav .sing-in {
+    display: block;
+    padding: 3px 10px;
+    border-radius: 2px;
+    background-color: #4385f7;
+    color: white;
+    font-weight: bold;
+}
